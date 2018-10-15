@@ -1,0 +1,255 @@
+    1  cd /bin/
+    2  ls
+    3  ls -1
+    4  ls -l
+    5  ls -lt
+    6  man ls
+    7  ls -lt | head
+    8  man head
+    9  date ; sleep 2 ; date
+   10  man sleep
+   11  cd ~
+   12  grep Chr7 ciffdiff.txt > fav_chr_cuffdiff.txt
+   13  grep Chr7 ciffdiff.txt > fav_chr_cuffdiff.txt
+   14  grep Chr7 cuffdiff.txt > fav_chr_cuffdiff.txt
+   15  wget  https://raw.githubusercontent.com/prog4biol/pfb2018/master/files/cuffdiff.txt
+   16  ls
+   17  grep Chr7 cuffdiff.txt > fav_chr_cuffdiff.txt
+   18  grep Chr7 cuffdiff.txt >> fav_chr_cuffdiff.txt
+   19  open fav_chr_cuffdiff.txt 
+   20  cat blablabla.txdt 2> errors.txt
+   21  man cat
+   22  cat blablabla.txt 2> errors.txt
+   23  cat blablabla.txt > errors.txt
+   24  cat fav_chr_cuffdiff.txt blablabla.file
+   25  cat fav_chr_cuffdiff.txt blablabla.file > out.txt 2> err.txt
+   26  out.txt
+   27  open out.txt
+   28  cat fav_chr_cuffdiff.txt blablabla.file > all_out_err.txt 2>&1
+   29  cd ~
+   30  cd ..
+   31  cd ~
+   32  mkdir problemsets
+   33  ls
+   34  cd ../problemsets
+   35  cd ~/problemsets/
+   36  pwd
+   37  wget https://raw.githubusercontent.com/prog4biol/pfb2018/master/files/sequences.nt.fa
+   38  wc https://raw.githubusercontent.com/prog4biol/pfb2018/master/files/sequences.nt.fa
+   39  wget https://raw.githubusercontent.com/prog4biol/pfb2018/master/files/sequences.nt.fa
+   40  wc sequences.nt.fa
+   41  head sequences.nt.fa
+   42  man haed
+   43  man head
+   44  man head
+   45  man tail
+   46  tail sequences.nt.fa
+   48  man tail
+   49  tail -n sequences.nt.fa
+   50  man tail
+   51  tail -n3 sequences.nt.fa
+   52  man head
+   53  head -n1 sequences.nt.fa
+   54  man grep
+   55  grep > | wc
+   56  grep'>' | wc
+   57  grep '>' | wc
+   58  cd ~/problemsets/
+   59  grep '>' | wc -1
+   60  ls
+   61  grep '>' sequences.nt.fa | wc -1
+   62  man grep
+   63  grep '>' sequences.nt.fa | wc 
+   64  man mv
+   65  mv sequences.nt.fa > cancer_genes.fasta
+   66  ls
+   67  wget  https://raw.githubusercontent.com/prog4biol/pfb2018/master/files/cuffdiff.txt
+   68  head cuffdiff.txt 
+   69  man sort
+   70  sort 'log2(fold_change)
+   71  sorted.cuffdiff.out
+   72  man sort
+   73  man sort
+   74  sort -k10 cuffdiff.txt > sortedcuffdiff.out
+   75  open sortedcuffdiff.out 
+   76  head sortedcuffdiff.out 
+   77  man sort
+   78  sort -r -n -k10 cuffdiff.txt > sortedcuffdiff.out
+   79  head sortedcuffdiff.out 
+   80  man wc
+   81  man wc
+   82  man head
+   83  head -n100 > top100.sorted.cuffdiff.out
+   84  head -n100 sortedcuffdiff.out 
+   85  head -n100 sortedcuffdiff.out > top100.sorted.cuffdiff.out
+   86  wc top100.sorted.cuffdiff.out 
+   87  appropos column
+   88  apropos column
+   89  apropos column
+   90  man print
+   91  man cut
+   92  cut -f 1 top100.sorted.cuffdiff.out 
+   93  cut -f 1 top100.sorted.cuffdiff.out | sort | unique > differentially.expressed.genes.txt
+   94  cut -f 1 top100.sorted.cuffdiff.out | sort | uniq > differentially.expressed.genes.txt
+   95  open differentially.expressed.genes.txt 
+   96  view differentially.expressed.genes.txt 
+   97  pwd
+   98  ls
+   99  cd ~/problemsets/
+  100  ls
+  101  wc sequences.nt.fa
+  102  man wc
+  103  man head
+  104  head -n1 sequences.nt.fa
+  105  tail -n3 sequences.nt.fa
+  106  grep '>' | wc
+  107  grep '>' sequences.nt.fa | wc
+  108  view sequences.nt.fa
+  109  man mv
+  110  head cuffdiff.txt 
+  111  man sort
+  112  sort -n -r -k10 cuffdiff.txt > sorted.cuffdiff.out
+  113  head sorted.cuffdiff.out 
+  114  open sorted.cuffdiff.out 
+  115  view sorted.cuffdiff.out 
+  116  head -n100 sorted.cuffdiff.out > top100.sorted.cuffdiff.out 
+  117  wc -l top100.sorted.cuffdiff.out 
+  118  man cut
+  119  cut -f1 
+  120  cut -F1
+  121  man cut
+  122  cut -f 1
+  123  cut -f 1 top100.sorted.cuffdiff.out 
+  124  cut -f 1 top100.sorted.cuffdiff.out | sort | uniq > differentially.expressed.genes.txt 
+  125  view differentially.expressed.genes.txt 
+  126  wc differentially.expressed.genes.txt 
+  127  man wc
+  128  view differentially.expressed.genes.txt 
+  129  view top100.sorted.cuffdiff.out 
+  130  echo "# PFB_problemsets" >> README.md
+  131  git init
+  132  git add README.md
+  133  git commit -m "first commit"
+  134  git remote add origin https://github.com/cnspaulding/PFB_problemsets.git
+  135  git push -u origin master
+  136  cd ~
+  137  cd ~
+  138  ls
+  139  cd ~/problemsets/
+  140  ls
+  141  man mv
+  142  mkdir Unix1PS
+  143  ls
+  144  mv cancer_genes.fasta Unix1PS/
+  145  ls
+  146  mv sequences.nt.fa Unix1PS/
+  147  ls
+  148  mv cuffdiff.txt Unix1PS/
+  149  mv differentially.expressed.genes.txt Unix1PS/
+  150  mv sorted.cuffdiff.out Unix1PS/
+  151  mv top100.sorted.cuffdiff.out Unix1PS/
+  152  ls
+  153  mv sortedcuffdiff.out Unix1PS/
+  154  mv sequences.nt.fa.1 Unix1PS/
+  155  ls
+  156  cd Unix1PS/
+  157  ls
+  158  pwd
+  159  ls -l
+  160  lls .git
+  161  ls .git
+  162  git status
+  163  git status
+  164  cd ..
+  165  git status
+  166  cd ..
+  167  git status
+  168  la
+  169  ls
+  170  cd ~/problemsets/
+  171  ls
+  172  git status
+  173  git add Unix1PS/
+  174  git push
+  175  ls Unix1PS/
+  176  git commit
+  177  git commit -m 'adding previous problem set files'
+  178  git push
+  179  mkdir files
+  180  ls
+  181  cd Unix1PS/
+  182  mv cancer_genes.fasta files
+  183  ls
+  184  cd ..
+  185  cd ~/files
+  186  ls
+  187  cd ~/files
+  188  cd files
+  189  ls
+  190  cd ..
+  191  cd Unix1PS/
+  192  ls
+  193  cd files
+  194  view files
+  195  wget https://raw.githubusercontent.com/prog4biol/pfb2018/master/files/sequences.nt.fa
+  196  mv sequences.nt.fa cancer_genes.fasta
+  197  ls
+  198  view cancer_genes.fasta 
+  199  man mv
+  200  mv cancer_genes.fasta ~/problemsets/files
+  201  cd ..
+  202  cd files
+  203  ls
+  204  view cancer_genes.fasta 
+  205  git add cancer_genes.fasta 
+  206  git commit -m 'adding another file'
+  207  git push
+  208  nano mysequences.txt
+  209  nano mysequences.txt
+  210  nano mysequences.txt
+  211  git add mysequences.txt 
+  212  git commit -m 
+  213  git commit -m 'adding nano myseq.txt to files'
+  214  git push
+  215  mkdir fastas
+  216  ls
+  217  mv mysequences.txt fastas/
+  218  ls
+  219  cd fastas/
+  220  ls
+  221  cd ..
+  222  cd ..
+  223  cd ..
+  224  cd ~/problemsets/files
+  225  ls
+  226  cd fastas/
+  227  ls
+  228  mv mysequences.txt ~/problemsets/files/
+  229  ls
+  230  cd ..
+  231  ls
+  232  man cp
+  233  cp cancer_genes.fasta fastas/
+  234  ls
+  235  cd fastas/
+  236  ls
+  237  view cancer_genes.fasta 
+  238  cd ..
+  239  ls
+  240  man rm
+  241  rm cancer_genes.fasta 
+  242  ls
+  243  git add *
+  244  git commit 'syncing new files'
+  245  git commit -m 'syncing new files'
+  246  git push
+  247  ls
+  248  ls
+  249  git rm cancer_genes.fasta
+  250  git commit -m 'removing cancer_genes.fasta file'
+  251  git push
+  252  man rm
+  253  man cp
+  254  man history
+  255  history
+  256  history > unixBasics.history.txt
