@@ -1,0 +1,500 @@
+  165  ls
+  166  Unix1PS/
+  167  cd Unix1PS/
+  168  ls
+  169  cd ..
+  170  cd files
+  171  ls
+  172  nano unixBasics.history.txt 
+  173  cd ..
+  174  ls
+  175  cd pfb2018/
+  176  ls
+  177  cd lectures/
+  178  ls
+  179  cd ..
+  180  cd ..
+  181  ls
+  182  cd files
+  183  ls
+  184  mv unixBasics.history.txt ~/problemsets/
+  185  ls
+  186  cd ..
+  187  ls
+  188  git add *
+  189  git commit -m 'moving history out of fastas'
+  190  git push
+  191  ls
+  192  cd Unix1PS/
+  193  ls
+  194  man column
+  195  column -t top100.sorted.cuffdiff.out 
+  196  man sort
+  197  sort -r -g cuffdiff.txt 
+  198  sort -r -g cuffdiff.txt > sorted.cuffdiff2.out
+  199  column -t sorted.cuffdiff2.out 
+  200  sort -r -g -k10  cuffdiff.txt > sorted.cuffdiff2.out
+  201  column -t sorted.cuffdiff2.out 
+  202  sort -r -g -k 10  cuffdiff.txt > sorted.cuffdiff2.out
+  203  column -t sorted.cuffdiff2.out 
+  204  man head
+  205  head -n 100 sorted.cuffdiff2.out 
+  206  sort -r -g -k 10  cuffdiff.txt > sorted.cuffdiff2.out
+  207  head -n 100 > top100.sorted.cuffdiff2.out 
+  208  head -n 100 > top100.sorted.cuffdiff2.out 
+  209  head -n100 > top100.sorted.cuffdiff2.out 
+  210  man head
+  211  head -n 100 sorted.cuffdiff2.out > top100.sorted.cuffdiff2.out 
+  212  wc top100.sorted.cuffdiff2.out 
+  213  man cut
+  214  cut -f 1 top100.sorted.cuffdiff2.out | sort | uniq > differentially.expressed.genes2.txt 
+  215  view differentially.expressed.genes2.txt 
+  216  history
+  217  history > unixBasics.history.updatedcorrectPS1.txt
+  218  ls
+  219  mv unixBasics.history.updatedcorrectPS1.txt ~/problemsets/
+  220  ls
+  221  cd ..
+  222  ls
+  223  git add unixBasics.history.updatedcorrectPS1.txt 
+  224  git commit -m 'uploading corrected PS 1 history
+  225  '
+  226  git push
+  227  ls
+  228  mv pfb2018/ ~/
+  229  ls
+  230  cd ..
+  231  ls
+  232  cd problemsets/
+  233  ls
+  234  get add *
+  235  git add *
+  236  git stauts
+  237  git status
+  238  git commit -m 'removing pfb2018'
+  239  git push
+  240  git status
+  241  git rm pfb2018
+  242  git commit -m 'removing pfb2018'
+  243  git push
+  244  exit
+  245  pythn3
+  246  python3
+  247  python3
+  248  exit
+  249  nano myfirstscript.txt
+  250  chmod myfirstscript.txt 
+  251  nano myfirstscript.txt
+  252  nano myfirstscript.py 
+  253  ls
+  254  mv myfirstscript.py ~/problemsets/
+  255  ls
+  256  rm myfirstscript.txt 
+  257  ls
+  258  cd ~/problemsets/
+  259  ls
+  260  mkdir Python1PS
+  261  ls
+  262  mv myfirstscript.py Python1PS/
+  263  ls
+  264  cd Python1PS/
+  265  ls
+  266  chmod +x myfirstscript.py 
+  267  ls -l myfirstscript.py 
+  268  myfirtscript.py
+  269  ./myfirstscript.py 
+  270  git add myfirstscript.py 
+  271  git commit -m 'added name to print
+  272  '
+  273  nano myfirstscript.py 
+  274  ./myfirstscript.py 
+  275  nano myfirstscript.py 
+  276  ./myfirstscript.py 
+  277  nano myfirstscript.py 
+  278  ./myfirstscript.py 
+  279  nano myfirstscript.py 
+  280  ./myfirstscript.py 
+  281  nano myfirstscript.py 
+  282  ./myfirstscript.py 
+  283  nano myfirstscript.py 
+  284  nano mysecondscriptwithsys.py
+  285  mysecondscriptwithsys.py Caitlin teal hiking giraffe
+  286  ./mysecondscriptwithsys.py Caitlin teal hiking giraffe
+  287  nano mysecondscriptwithsys.py 
+  288  ./mysecondscriptwithsys.py Caitlin teal hiking giraffe
+  289  nano mysecondscriptwithsys.py 
+  290  ./mysecondscriptwithsys.py Caitlin teal hiking giraffe
+  291  nano mysecondscriptwithsys.py 
+  292  ./mysecondscriptwithsys.py Caitlin teal hiking giraffe
+  293  nano mysecondscriptwithsys.py 
+  294  ./mysecondscriptwithsys.py Caitlin teal hiking giraffe
+  295  nano mysecondscriptwithsys.py 
+  296  ./mysecondscriptwithsys.py Caitlin teal hiking giraffe
+  297  nano mysecondscriptwithsys.py 
+  298  ./mysecondscriptwithsys.py Caitlin teal hiking giraffe
+  299  nanp mysecondscriptwithsys.py 
+  300  nano mysecondscriptwithsys.py 
+  301  ./mysecondscriptwithsys.py Caitlin teal hiking giraffe
+  302  nano mysecondscriptwithsys.py 
+  303  nano my./mysecond
+  304  nano mysecondscriptwithsys.py 
+  305  ./mysecondscriptwithsys.py
+  306  ./mysecondscriptwithsys.py Caitlin blue cycling dogs
+  307  ls
+  308  git add *
+  309  git status
+  310  git commit -m 'adding first Python1PS'
+  311  git push
+  312  emacs
+  313  nano myfirstscript.py 
+  314  nano mysecondscriptwithsys.py 
+  315  git status
+  316  nano mysecondscriptwithsys.py 
+  317  ./mysecondscriptwithsys.py Caitlin blue cycling dogs
+  318  nano mysecondscriptwithsys.py 
+  319  ./mysecondscriptwithsys.py Caitlin Spaulding teal hiking giraffe
+  320  nano mysecondscriptwithsys.py 
+  321  ./mysecondscriptwithsys.py Caitlin Spaulding teal hiking giraffe
+  322  nano mysecondscriptwithsys.py 
+  323  ./mysecondscriptwithsys.py Caitlin Spaulding teal hiking giraffe
+  324  nano mysecondscriptwithsys.py 
+  325  ./mysecondscriptwithsys.py 'Caitlin Spaulding' teal hiking giraffe
+  326  nano mysecondscriptwithsys.py 
+  327  ./mysecondscriptwithsys.py 'Caitlin Spaulding' teal hiking giraffe
+  328  nano mysecondscriptwithsys.py 
+  329  cd ..
+  330  ls
+  331  mkdir Python2PS
+  332  ls
+  333  cd Python2PS/
+  334  ls
+  335  cd ..
+  336  cd ~/
+  337  ls
+  338  cd Desktop/
+  339  ;s
+  340  ls
+  341  ls
+  342  cd ~/
+  343  cd problemsets/
+  344  ls
+  345  history > pythonps1_history.txt
+  346  ls
+  347  mv pythonps1_history.txt Python2PS/
+  348  ls
+  349  cd Python2PS/
+  350  ls
+  351  mv pythonps1_history.txt ~/problemsets/Python1PS/
+  352  ls
+  353  cd ..
+  354  ls
+  355  cd Python1PS/
+  356  ;s
+  357  ls
+  358  git add pythonps1_history.txt 
+  359  git commint -m 'adding history for PS'
+  360  git commit -m 'adding history for PS'
+  361  git stauts
+  362  git status
+  363  git push
+  364  cd ~/
+  365  exit
+  366  ipython
+  367  python3
+  368  nano ifelsestatements.txt
+  369  ./ifelsestatements.txt
+  370  nano ifelsestatements.txt 
+  371  ./ifelsestatements.py
+  372  nano ifelsestatements.
+  373  nano ifelsestatements.py
+  374  ./ifelsestatments.py
+  375  ./ ifelsestatements.py 
+  376  ./ifelsestatements.py 
+  377  nano ifelsestatementswithsys.py
+  378  ls
+  379  ls -l ifelsestatementswithsys.py 
+  380  chmod +x ifelsestatementswithsys.py 
+  381  ./ifelsestatementswithsys.py ls -l ifelsestatements
+  382  ls -l ifelsestatementswithsys.py 
+  383  ls
+  384  mv ifelsestatements.py ~/problemsets/Python2PS/
+  385  ls
+  386  mv ifelsestatementswithsys.py ~/problemsets/Python2PS/
+  387  ls
+  388  cd problemsets/
+  389  cd Python2PS/
+  390  ls
+  391  ./ifelsestatementswithsys.py 50
+  392  nano ifelsestatementswithsys.py 
+  393  ./ifelsestatementswithsys.py 50
+  394  nano ifelsestatementswithsys.py 
+  395  ./ifelsestatementswithsys.py 50
+  396  nano ifelsestatementswithsys.py 
+  397  ./ifelsestatementswithsys.py 50
+  398  nano ifelsestatementswithsys.py 
+  399  nano ifelse8.py
+  400  chmod ifelse8.py 
+  401  ls -l ifelse8.py 
+  402  chmod +x ifelse8.py 
+  403  ls -l ifelse8.py 
+  404  ./ifelse8.py -5
+  405  nano ifelse8.py 
+  406  ./ifelse8.py -5
+  407  ./ifelse8.py 5
+  408  nano ifelse8.py 
+  409  ./ifelse8.py 0
+  410  nano ifelse8.py 
+  411  nano ifelsestatementswithsys.py 
+  412  nano ifelsestatementswithsys.py 
+  413  ls -l ifelsestatementswithsys.py 
+  414  nano ifelse8.py 
+  415  ./ifelse8.py 0
+  416  ./ifelse8.py 10
+  417  nano ifelse8.py 
+  418  ifelse8.py 12
+  419  ./ifelse8.py 12
+  420  ./ifelse8.py 120
+  421  nano ifelse8.py 
+  422  ./ifelse8.py 120
+  423  nano ifelse8.py 
+  424  ./ifelse8.py 120
+  425  ./ifelse8.py 123
+  426  nano ifelse8.py 
+  427  ./ifelse8.py 123
+  428  ./ifelse8.py 120
+  429  nano ifelse8.py 
+  430  ls
+  431  nano ifelse8.py 
+  432  ls
+  433  nano py2q8to10.py 
+  434  ls -l py2q8to11.py
+  435  chmod +x py2q8to11.py 
+  436  ./py2q8to11.py 48
+  437  ./py2q8to11.py 148
+  438  ./py2q8to11.py 49
+  439  nano py2q8to11.py 
+  440  ./py2q8to11.py 48
+  441  ./py2q8to11.py 49
+  442  nano py2q8to11.py 
+  443  ls -l py2q8to12.py 
+  444  chmod +x py2q8to12.py
+  445  ./py2q8to12.py 54
+  446  nano py2q8to12
+  447  nano py2q8to12.py 
+  448  ./py2q8to12.py 54
+  449  nano py2q8to12.py 
+  450  ./py2q8to12.py 
+  451  ./py2q8to12.py 48
+  452  nano py2q8to12.py 
+  453  ./py2q8to12.py 48
+  454  ./py2q8to12.py 148
+  455  ./py2q8to12.py 0
+  456  nano py2q8to12.py 
+  457  nano py2q8to12.py 48
+  458  ./py2q8to12.py 0
+  459  ./py2q8to12.py 48
+  460  nano py2q8to12.py 
+  461  ./py2q8to12.py 54
+  462  ./py2q8to12.py 60
+  463  nano py2q8to12.py 
+  464  python3
+  465  nano py2q8to12.py 
+  466  ./py2q8to12.py 60
+  467  ./py2q8to12.py 59
+  468  nano py2q8to12.py 
+  469  ./py2q8to12.py 50
+  470  nano py2q8to12.py 
+  471  ./py2q8to12.py 50
+  472  nano py2q8to12.py 
+  473  ./py2q8to12.py 50
+  474  nano py2q8to12.py 
+  475  ls
+  476  git add *
+  477  git commit -m 'adding python PS 2'
+  478  git status
+  479  git push
+  480  vi testfile.txt
+  481  emacs
+  482  bg
+  483  emacs -nw
+  484  emacs -nw test.py
+  485  ls
+  486  cd problemsets/
+  487  ls
+  488  cd Python1PS/
+  489  ls
+  490  nano myfirstscript.py 
+  491  vi
+  492  vi
+  493  vi test.py
+  494  emacs test.py
+  495  emacs test.py
+  496  vi
+  497  vi test
+  498  vi test.py
+  499  emacs test.py
+  500  ls
+  501  vi test.py
+  502  ls
+  503  ls -l test.py
+  504  chmod +x test.py
+  505  ls -1 test.py
+  506  ls -l test.py
+  507  ./test.py Caitlin 
+  508  cd ~/problemsets/Python1PS/
+  509  ls
+  510  vi myfirstscript.py 
+  511  vi mysecondscriptwithsys.py 
+  512  vi test.py
+  513  vi mysecondscriptwithsys.py 
+  514  cd ~/
+  515  ./test.py Caitlin
+  516  vi test.py
+  517  ./test.py Caitlin
+  518  vi test.py
+  519  ./test.py Caitlin
+  520  vi test.py
+  521  ./test.py Caitlin
+  522  cd ~/problemsets/Python1PS/
+  523  ls
+  524  vi mysecondscriptwithsys.py 
+  525  ./myseondscriptwithsys.py Caitlin dog teal running
+  526  ls -l mysecondscriptwithsys.py 
+  527  chmod +x mysecondscriptwithsys.py 
+  528  ./mysecondscriptwithsys.py caitlin dog teal run
+  529  vi mysecondscriptwithsys.py 
+  530  ./mysecondscriptwithsys.py caitlin dog teal run
+  531  vi mysecondscriptwithsys.py 
+  532  cd ~/
+  533  vi test.py
+  534  ./test.py Caitlin
+  535  ./test.py Caitlin dog teal teal
+  536  vi /ect/profile
+  537  vi .vimrc
+  538  vi test.py
+  539  vi .vimrc
+  540  vi .vimrc
+  541  vi .vimrc
+  542  vi .vimrc
+  543  vi .vimrc
+  544  vi .vimrc
+  545  vi .vimrc
+  546  vi .vimrc
+  547  vi .vimrc
+  548  clear
+  549  cd problemsets/
+  550  ls
+  551  mkdir Python3PS
+  552  ls
+  553  cd Python3PS/
+  554  vi ps3p1
+  555  vi ps3p1.py
+  556  ./ps3p1.py 
+  557  vi ps3p1.py
+  558  ./ps3p1.py 
+  559  vi ps3p1.py
+  560  ./ps3p1.py 
+  561  vi ps3q6.py
+  562  ./ps3q6.py
+  563  vi ps3q6.py
+  564  ls -l ps3q6.py 
+  565  chmod +x ps3q6.py
+  566  ./ps3q6.py 
+  567  vi ps3q6.py 
+  568  ./ps3q6.py 
+  569  vi ps3q6.py 
+  570  ./ps3q6.py 
+  571  vi ps3q6.py 
+  572  ./ps3q6.py 
+  573  vi ps3q6.py 
+  574  ./ps3q6.py 
+  575  vi ps3q6.py 
+  576  ./ps3q6.py 
+  577  vi ps3q6.py 
+  578  ./ps3q6.py 
+  579  vi ps3q6.py 
+  580  ./ps3q6.py 
+  581  vi ps3q9.py
+  582  vi ps3q6.py
+  583  vi ps3q9.py
+  584  ./ps3q9.py 
+  585  vi ps3q9.py
+  586  ./ps3q9.py 
+  587  vi ps3q9.py
+  588  ./ps3q9.py 
+  589  vi ps3q9.py
+  590  ./ps3q9.py 
+  591  vi ps3q9.py
+  592  ./ps3q9.py 
+  593  vi ps3q9.py
+  594  ./ps3q9.py 
+  595  vi ps3q9.py
+  596  ./ps3q9.py 
+  597  vi ps3q9.py
+  598  ./ps3q9.py 
+  599  vi ps3q9.py
+  600  ./ps3q9.py 
+  601  vi ps3q9.py
+  602  ./ps3q9.py 
+  603  vi ps3q9.py
+  604  ./ps3q9.py 
+  605  vi ps3q9.py
+  606  ./ps3q9.py 
+  607  vi ps3q9.py
+  608  ./ps3q9.py 
+  609  vi ps3q9.py
+  610  ./ps3q9.py 
+  611  vi ps3q9.py
+  612  ./ps3q9.py 
+  613  vi ps3q13.py
+  614  ./ps3q13.py 
+  615  vi ps3q13.py
+  616  ./ps3q13.py 
+  617  vi ps3q13.py
+  618  ./ps3q13.py 
+  619  vi ps3q13.py
+  620  ./ps3q13.py 
+  621  vi ps3q13.py
+  622  ./ps3q13.py 
+  623  vi ps3q13.py
+  624  vi ps3q14.py
+  625  ./ps3q14.py 
+  626  vi ps3q14.py
+  627  ./ps3q14.py 
+  628  vi ps3q14.py
+  629  ./ps3q14.py 
+  630  vi ps3q14.py
+  631  ./ps3q14.py 
+  632  vi ps3q14.py
+  633  ./ps3q14.py 
+  634  vi ps3q14.py
+  635  ./ps3q14.py 
+  636  vi ps3q14.py
+  637  ./ps3q14.py 
+  638  ls
+  639  git add *
+  640  git commit -m 'adding PS3 python'
+  641  git push
+  642  ls
+  643  vi ps3q13.py
+  644  vi ps3q14.py
+  645  ./ps3q14.py 
+  646  vi ps3q14.py
+  647  ./ps3q14.py 
+  648  vi ps3q14.py
+  649  ./ps3q14.py 
+  650  vi ps3q14.py
+  651  ./ps3q14.py 
+  652  vi ps3q14.py
+  653  ./ps3q14.py 
+  654  git status
+  655  git add *
+  656  gti commit -m 'updating scripts with notes'
+  657  ls
+  658  vi ps3p1.py
+  659  vi ps3q6.py 
+  660  vi ps3q9.py 
+  661  git add *
+  662  git commit -m 'updating scripts with comments'
+  663  git push
+  664  history > ps3unixhistory.txt
