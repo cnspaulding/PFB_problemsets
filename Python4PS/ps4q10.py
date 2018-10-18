@@ -4,12 +4,12 @@ import sys
 start = int(sys.argv[1])
 end = int(sys.argv[2])
 
-num = start
+#num = start
 
-while num <= end:
-	if num%2==0:
-		print(num)	
-	num += 1	
+while start <= end:
+	if start%2==0:
+		print(start)	
+	start += 1	
 
 #this way is not fully working.
 #numbers= range(start,end)
