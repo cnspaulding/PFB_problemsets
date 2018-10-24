@@ -11,7 +11,7 @@ C_count=0
 
 fasta_dict = {}
 
-fasta_file = open('Python_08_test.fasta', 'r')
+fasta_file = open('Python_08.fasta', 'r')
 #open file, save gene name in one list and seq in another.
 for line in fasta_file:
 	line=line.rstrip()

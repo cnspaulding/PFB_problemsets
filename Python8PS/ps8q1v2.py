@@ -24,9 +24,15 @@ for line in fasta_file:
 	else:
 		#look at how jessen did this piece in his fasta parser
 		fasta_dict[gene_ID] += line		
-		fasta_dict[gene_ID] = {'A':0, 'C':0, 'G':0, 'T':0}
-		for nt in line:
-			fasta_dict[gene_ID][nt] += 1
+print(fasta_dict)
+
+fasta_dict[1]= {}
+fasta_dict[1][gene_ID] = {'A':0, 'C':0, 'G':0, 'T':0}
+#for nt in line:
+#	fasta_dict[gene_ID][nt] += 1
+
+print(fasta_dict)
+
 		 
 	#	if char == 'T':
 	#		count += 1
@@ -38,7 +44,7 @@ for line in fasta_file:
 	#		A_count += 1
 	#	print(A_count)
 				
-print(fasta_dict)							
+#print(fasta_dict)							
 
 		
 #print(fasta_dict)
